@@ -18,7 +18,7 @@
         "laravel/framework": "^8.0",
         "laravel/sanctum": "^2.0",
         "laravel/tinker": "^2.0",
-        "okami101/laravel-admin": "dev-master",
+        "ftfuture/laravel-admin": "dev-master",
         "spatie/laravel-medialibrary": "^9.0",
         "spatie/laravel-query-builder": "^3.2",
         "spatie/laravel-translatable": "^4.4"
@@ -35,7 +35,7 @@
         "phpunit/phpunit": "^9.3"
     },
     "repositories": {
-        "okami101/laravel-admin": {
+        "ftfuture/laravel-admin": {
             "type": "path",
             "url": "../../packages/laravel"
         }

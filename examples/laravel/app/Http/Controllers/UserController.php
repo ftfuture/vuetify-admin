@@ -7,7 +7,7 @@ use App\Http\Requests\UpdateUser;
 use App\Http\Resources\User as UserResource;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 

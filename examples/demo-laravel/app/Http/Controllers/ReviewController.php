@@ -6,7 +6,7 @@ use App\Http\Requests\StoreReview;
 use App\Http\Requests\UpdateReview;
 use App\Http\Resources\Review as ReviewResource;
 use App\Models\Review;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 

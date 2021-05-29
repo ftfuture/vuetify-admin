@@ -9,7 +9,7 @@ use App\Http\Resources\BookCollection;
 use App\Models\Book;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 

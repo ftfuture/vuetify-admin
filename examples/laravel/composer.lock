@@ -2342,7 +2342,7 @@
             "time": "2020-09-26T10:30:38+00:00"
         },
         {
-            "name": "okami101/laravel-admin",
+            "name": "ftfuture/laravel-admin",
             "version": "dev-master",
             "dist": {
                 "type": "path",
@@ -2380,18 +2380,18 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Okami101\\LaravelAdmin\\AdminServiceProvider"
+                        "ftfuture\\LaravelAdmin\\AdminServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Okami101\\LaravelAdmin\\": "src"
+                    "ftfuture\\LaravelAdmin\\": "src"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "Okami101\\LaravelAdmin\\Tests\\": "tests"
+                    "ftfuture\\LaravelAdmin\\Tests\\": "tests"
                 }
             },
             "scripts": {
@@ -10477,7 +10477,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "okami101/laravel-admin": 20
+        "ftfuture/laravel-admin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

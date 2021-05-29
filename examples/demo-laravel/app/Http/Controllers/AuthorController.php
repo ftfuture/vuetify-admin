@@ -7,7 +7,7 @@ use App\Http\Requests\UpdateAuthor;
 use App\Http\Resources\Author as AuthorResource;
 use App\Models\Author;
 use Illuminate\Database\Eloquent\Builder;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 

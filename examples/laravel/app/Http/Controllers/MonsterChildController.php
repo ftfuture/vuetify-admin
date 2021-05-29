@@ -6,7 +6,7 @@ use App\Http\Requests\StoreMonsterChild;
 use App\Http\Requests\UpdateMonsterChild;
 use App\Http\Resources\MonsterChild as MonsterChildResource;
 use App\Models\MonsterChild;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 

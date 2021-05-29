@@ -2,7 +2,7 @@
 
 namespace App\Http\Resources;
 
-use Okami101\LaravelAdmin\Http\Resources\BaseResource;
+use ftfuture\LaravelAdmin\Http\Resources\BaseResource;
 
 class Monster extends BaseResource
 {

@@ -21,8 +21,8 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        \Okami101\LaravelAdmin\Http\Middleware\Locale::class,
-        \Okami101\LaravelAdmin\Http\Middleware\ReadOnly::class,
+        \ftfuture\LaravelAdmin\Http\Middleware\Locale::class,
+        \ftfuture\LaravelAdmin\Http\Middleware\ReadOnly::class,
     ];
 
     /**
@@ -43,7 +43,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-            \Okami101\LaravelAdmin\Http\Middleware\Impersonate::class,
+            \ftfuture\LaravelAdmin\Http\Middleware\Impersonate::class,
             'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],

@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Book;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Okami101\LaravelAdmin\Faker\Provider\Html;
+use ftfuture\LaravelAdmin\Faker\Provider\Html;
 
 class BookFactory extends Factory
 {

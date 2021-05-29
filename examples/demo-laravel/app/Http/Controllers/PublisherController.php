@@ -7,7 +7,7 @@ use App\Http\Requests\UpdatePublisher;
 use App\Http\Resources\Publisher as PublisherResource;
 use App\Models\Publisher;
 use Illuminate\Http\Request;
-use Okami101\LaravelAdmin\Filters\SearchFilter;
+use ftfuture\LaravelAdmin\Filters\SearchFilter;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\AllowedInclude;
 use Spatie\QueryBuilder\QueryBuilder;

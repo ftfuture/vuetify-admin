@@ -49,7 +49,7 @@ module.exports = (ctx) => ({
     ["meta", { name: "docsearch:lang", content: "en-US" }],
   ],
   themeConfig: {
-    repo: "okami101/vuetify-admin",
+    repo: "ftfuture/vuetify-admin",
     editLinks: true,
     docsDir: "docs",
     // #697 Provided by the official algolia team.
@@ -83,7 +83,7 @@ module.exports = (ctx) => ({
           },
           {
             text: "Laravel",
-            link: "https://github.com/okami101/laravel-admin",
+            link: "https://github.com/ftfuture/laravel-admin",
           },
           {
             text: "Demo",
